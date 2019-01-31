@@ -51,6 +51,6 @@ function onCreate(savedInstanceState)
     activity.setContentView(loadlayout(layout))
     --    activity.disableDrawer()
     bt.onClick = function()
-        activity.toast("再按一次退出");
+        activity.toast("哈哈哈");
     end
 end
