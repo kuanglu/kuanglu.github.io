@@ -35,6 +35,15 @@ local layout = {
         layout_height = "wrap",
         text = "bt + onclick",
         textColor = themColor,
+    },
+    {
+        Button,
+        id = "bt0";
+        textSize = "28sp",
+        layout_width = "fill",
+        layout_height = "wrap",
+        text = "bt + onclick",
+        textColor = themColor,
     }
 }
 local function get()
@@ -52,5 +61,8 @@ function onCreate(savedInstanceState)
     --    activity.disableDrawer()
     bt.onClick = function()
         activity.toast("哈哈哈");
+    end
+    bt0.onClick = function()
+        activity.toast("哈哈哈000");
     end
 end
